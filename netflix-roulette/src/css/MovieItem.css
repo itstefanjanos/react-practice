@@ -1,0 +1,69 @@
+.movie-item {
+    display: inline-grid;
+    width: 320px;
+    margin: 0 auto;
+    grid-template-rows: 450px minmax(41px, auto) auto;
+    gap: 5px;
+}
+.movie-poster {
+    width: 320px;
+    height: 450px;
+}
+.movie-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+
+    grid-row-start: 2;
+    grid-column-start: 1;
+    justify-self: start;
+    margin-top: 19px;
+}
+.release-year {
+    display: block;
+    width: 66px;
+    height: 26px;
+
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    padding: 4px 8px 5px 8px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+    grid-row-start: 2;
+    grid-column-start: 1;
+    justify-self: end;
+    margin-top: 17px;
+}
+.movie-genres {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}

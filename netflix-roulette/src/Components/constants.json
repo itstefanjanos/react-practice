@@ -1,0 +1,122 @@
+{
+    "search": {
+        "field": {
+            "id": "search-field",
+            "className": "search-field",
+            "placeholder": "What do you want to watch?"
+        },
+        "button": {
+            "className": "search-button",
+            "text": "search"
+        },
+        "label": {
+            "text": "find your movie",
+            "className": "search-label"
+        },
+        "form": {
+            "className": "search-form"
+        }
+    },
+    "logo": {
+        "className": "logo"
+    },
+    "header": {
+        "addMovie": {
+            "className": "add-movie",
+            "text": "+ add movie"
+        },
+        "foreground": {
+            "className": "header-foreground"
+        },
+        "logo": {
+            "className": "header-logo"
+        }
+    },
+    "searchResult": {
+        "topSection": {
+            "className": "top-section"
+        },
+        "container": {
+            "className": "search-result"
+        },
+        "count": {
+            "className": "search-result-count",
+            "text": "movies found",
+            "value": {
+                "className": "search-result-count-value"
+            }
+        }
+    },
+    "moviesList": {
+        "className": "movies-list"
+    },
+    "movieItem": {
+        "className": "movie-item",
+        "poster": {
+            "className": "movie-poster"
+        },
+        "title": {
+            "className": "movie-title"
+        },
+        "releaseYear": {
+            "className": "release-year"
+        },
+        "genres": {
+            "className": "movie-genres"
+        }
+    },
+    "sortBySelector": {
+        "className": "sort-by",
+        "label": {
+            "text": "sort by",
+            "className": "sort-by-label"
+        },
+        "selector": {
+            "className": "sort-by-selector",
+            "optionItem": {
+                "className": "sort-by-option"
+            },
+            "container": {
+                "className": "sort-by-selector-container"
+            },
+            "options": {
+                "release date": {
+                    "query": "release_date",
+                    "order": "asc"
+                },
+                "vote average": {
+                    "query": "vote_average",
+                    "order": "asc"
+                },
+                "title": {
+                    "query": "title",
+                    "order": "asc"
+                }
+            }
+        }
+    },
+    "genreFilter": {
+        "className": "genre-filter",
+        "item": {
+            "className": "genre-item"
+        },
+        "genres": {
+            "all": {
+                "query": "",
+                "selected": "true"
+            },
+            "documentary": {
+                "query": "documentary"
+            },
+            "comedy": {
+                "query": "documentary"
+            },
+            "horror": {
+                "query": "documentary"
+            },
+            "crime": {
+                "query": "documentary"
+            }
+        }
+    }
+}

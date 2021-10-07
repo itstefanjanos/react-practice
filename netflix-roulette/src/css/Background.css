@@ -1,0 +1,15 @@
+.header-background {
+
+    background: url('../img/header_bg.png');
+    background-size: 100%;
+    position: absolute;
+    width: 1260px;
+    height: 683px;
+    left: -28px;
+    top: -110px;
+    z-index: 0;
+
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    filter: blur(8.15485px);
+}

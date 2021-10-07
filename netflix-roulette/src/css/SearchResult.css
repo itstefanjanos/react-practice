@@ -1,0 +1,13 @@
+.search-result {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 1200px;
+    background: #232323;
+    color: #fff;
+}
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+    border-bottom: 2px solid #424242;
+}
